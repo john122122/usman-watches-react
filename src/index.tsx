@@ -18,10 +18,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
-          
-            <App />
-          
+        <CssBaseline/>
+            <App/>
       </ThemeProvider>
     </Provider>
   </React.StrictMode>,
