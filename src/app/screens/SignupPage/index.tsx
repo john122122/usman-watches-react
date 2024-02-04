@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "@mui/material";
 
-export function SuitsPage() {
+export function SignupPage() {
     return (
         <Container>
-            SuitsPage       
+            SignupPage
         </Container>
-    )
-}
+    ); 
+};

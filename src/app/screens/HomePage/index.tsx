@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "@mui/material";
 
-export function WatchesPage() {
+export function HomePage() {
     return (
         <Container>
-            WatchesPage       
+            HomePage       
         </Container>
     )
 }

@@ -4,7 +4,7 @@ import { Container } from "@mui/material";
 export function ShopsPage() {
     return (
         <Container>
-            ShopsPage
+            ShopsPage       
         </Container>
     )
 }

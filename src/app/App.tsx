@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/App.css';
+import "../css/navbar.css";
 import { Box, Button, Container, Stack, Typography } from '@mui/material';
 import {
   BrowserRouter as Router,
@@ -14,16 +15,26 @@ import { OrdersPage } from './screens/OrdersPage';
 import { HelpPage } from './screens/HelpPage';
 import { MemberPage } from './screens/MemberPage';
 import { LoginPage } from './screens/LoginPage';
-import { WatchesPage } from './screens/WatchesPage';
-import { SuitsPage } from './screens/SuitsPage';
-import { BootsPage } from './screens/BootsPage';
+import { NavbarHome } from './components/header';
+import { NavbarShops } from './components/header/shops';
+import { NavbarOthers } from './components/header/others';
+import { SignupPage } from './screens/SignupPage';
 
 function App() {
+  const [path, setPath] = useState();
+  const main_path = window.location.pathname;
+  
   return (
-    <div>
-       <Router>
-      <div>
-        <nav>
+    <Router>
+      {main_path == "/" ? (
+          <NavbarHome setPath={setPath} />
+        ) : main_path.includes("/shop") ? (
+          <NavbarShops setPath={setPath} />
+        ) : (
+          <NavbarOthers setPath={setPath} />  
+        )}
+        
+        {/* <nav>
             <ul>
               
               <li>
@@ -53,35 +64,11 @@ function App() {
               <li>  
                 <Link to="/shops">ShopsPage</Link>
               </li>
-                
-              <li>  
-                <Link to="/suits">SuitsPage</Link>
-              </li>
-              
-              <li>
-                <Link to="/boots">BootsPage</Link>
-              </li>
-
-              <li>
-                <Link to="/watches">WatchesPage</Link>
-              </li>
-
+          
           </ul>
-        </nav>
+        </nav> */}
           
           <Switch>
-            
-            <Route path="/watches"> 
-              <WatchesPage />
-            </Route>
-
-            <Route path="/boots"> 
-              <BootsPage />
-            </Route>
-
-            <Route path="/suits">
-              <SuitsPage /> 
-            </Route>
             
             <Route path="/shops">
               <ShopsPage /> 
@@ -106,15 +93,16 @@ function App() {
             <Route path="/login"> 
               <LoginPage />
             </Route>
+            
+            <Route path="/sign-up"> 
+              <SignupPage />
+            </Route>
 
             <Route path="/">              
-                <HomePage />             
-            </Route>
-            
-          </Switch> 
-        </div>  
-      </Router>
-    </div>
+                <HomePage/>             
+            </Route>  
+      </Switch> 
+    </Router>
   );
 }
 
