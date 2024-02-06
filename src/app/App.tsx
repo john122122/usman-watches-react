@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../css/App.css';
 import "../css/navbar.css";
+import "../css/footer.css";
 import { Box, Button, Container, Stack, Typography } from '@mui/material';
 import {
   BrowserRouter as Router,
@@ -19,6 +20,7 @@ import { NavbarHome } from './components/header';
 import { NavbarShops } from './components/header/shops';
 import { NavbarOthers } from './components/header/others';
 import { SignupPage } from './screens/SignupPage';
+import { Footer } from './components/footer';
 
 function App() {
   const [path, setPath] = useState();
@@ -33,43 +35,8 @@ function App() {
         ) : (
           <NavbarOthers setPath={setPath} />  
         )}
-        
-        {/* <nav>
-            <ul>
-              
-              <li>
-                <Link to="/">HomePage</Link> 
-              </li>
-
-              <li>
-                <Link to="/login">LoginPage</Link> 
-              </li>
-
-              <li>
-                <Link to="/help">HelpPage</Link> 
-              </li>
-
-              <li>
-                <Link to="/member-page">MemberPage</Link> 
-              </li>
-
-              <li>
-                <Link to="/orders">OrdersPage</Link> 
-              </li>
-
-              <li>
-                <Link to="/community">CommunityPage</Link> 
-              </li>
-              
-              <li>  
-                <Link to="/shops">ShopsPage</Link>
-              </li>
-          
-          </ul>
-        </nav> */}
-          
+      
           <Switch>
-            
             <Route path="/shops">
               <ShopsPage /> 
             </Route>
@@ -102,6 +69,8 @@ function App() {
                 <HomePage/>             
             </Route>  
       </Switch> 
+
+      <Footer/>
     </Router>
   );
 }

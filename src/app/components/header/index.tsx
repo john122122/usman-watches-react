@@ -23,7 +23,6 @@ export function NavbarHome(props: any) {
                         className="navbar_links_1"
                     >
 
-
                         <Box className="hover_line" onClick={props.setPath}>
                             <NavLink to="/" activeClassName="underline">
                                 Home
@@ -88,7 +87,7 @@ export function NavbarHome(props: any) {
                                 aria-expanded={undefined}
                                 //onClick={handleClick}
                             >
-                                <Badge badgeContent={3}>
+                                <Badge badgeContent={10}>
                                     <img src="/icons/savat.svg" alt="" />
                                 </Badge>
                             </IconButton>
@@ -138,11 +137,6 @@ export function NavbarHome(props: any) {
                             </Button>
                         </Box>
                     </Stack>
-
-                    {/* <Stack flexDirection={"column"}>
-                        <div className="big_img"></div>    
-                    </Stack> */}
-
                 </Stack>
             </Container>
         </div>
