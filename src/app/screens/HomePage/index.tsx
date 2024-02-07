@@ -3,9 +3,9 @@ import { Container } from "@mui/material";
 import { Service } from "./service";
 import { TrendProducts } from "./trendProducts";
 import { TopShops } from "./topShops";
-import { BestSellers } from "./bestSellers";
+import { NewArrivals } from "./newArrivals";
 import { Advertisements } from "./advertisements";
-import { Recommendations } from "./recommendations";
+import { Ourconsumers } from "./ourconsumers";
 import { Events } from "./events";
 import '../../../css/home.css'
 
@@ -14,11 +14,11 @@ export function HomePage() {
         <div className="homepage">
             <Service />
             <TopShops />
-            <BestSellers />
+            <NewArrivals />
             <TrendProducts />
             <Advertisements />
             <Events />
-            <Recommendations />
+            <Ourconsumers />
         </div>
     );
 }

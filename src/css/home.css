@@ -47,7 +47,6 @@
     display: flex;
     background: #f6ebda;
     /* border: 1px solid red; */
-
    }
 
    .homepage .category_title {
@@ -59,3 +58,11 @@
 
     color: #1c4a2c;
    }
+
+   .homepage .new_arrival_frame {
+    width: 100%;
+    height: 755px;
+    display: flex;
+    background: #f6ebda;
+   }
+

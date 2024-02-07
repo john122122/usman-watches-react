@@ -33,6 +33,12 @@ export function Footer() {
                                     <img src={"/icons/twit.svg"} alt="" />
                                 </Box>
                             </Stack>
+                            <Box className={"card_types"}>
+                                <img className={"card"} src="/cards/western_union.svg" />
+                                <img className={"card"} src="/cards/master_card.svg" />
+                                <img className={"card"} src="/cards/paypal.svg" />
+                                <img className={"card"} src="/cards/visa.svg" />
+                            </Box>
                         </Stack>
                         <Stack className="parts">
                           <Box className="part_subject">Sections</Box>
