@@ -21,7 +21,7 @@ export function Service() {
               <p>Free Shipping for orders over $450</p>
              </div>
             </div>
-            <Marginer direction="vertical" height="64" width="2" bg="#ffffff"/>
+            <Marginer direction="vertical" height="64" width="2" bg="#e3c08d"/>
             <div className="service_box">
              <img src="icons/shield 1.svg" alt=""/>
               <div className="service_content">
@@ -29,7 +29,7 @@ export function Service() {
               <p>Within 30 days for an exchange</p>
              </div>
             </div>
-            <Marginer direction="vertical" height="64" width="2" bg="#ffffff"/>
+            <Marginer direction="vertical" height="64" width="2" bg="#e3c08d"/>
             <div className="service_box">
               <img src="icons/headphones 1.svg" alt=""/>
               <div className="service_content">
@@ -37,7 +37,7 @@ export function Service() {
               <p>24 hours a day, 7 days a week</p>
              </div>
             </div>
-            <Marginer direction="vertical" height="64" width="2" bg="#ffffff"/>
+            <Marginer direction="vertical" height="64" width="2" bg="#e3c08d"/>
             <div className="service_box">
              <img src="icons/credit-card 1.svg" alt=""/>
               <div className="service_content">

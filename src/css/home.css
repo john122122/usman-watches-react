@@ -40,3 +40,22 @@
     font-weight: 400;
     line-height: 22px
    }
+
+   .homepage .top_shops_frame {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background: #f6ebda;
+    /* border: 1px solid red; */
+
+   }
+
+   .homepage .category_title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #1c4a2c;
+   }
