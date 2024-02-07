@@ -49,7 +49,7 @@
     flex-direction: column;
     width: 88px; 
     height: 245px;
-    margin-left: 283px;
+    margin-left: 125px;
   }
     
   .parts .part_subject {
@@ -118,16 +118,16 @@
     position: relative;
     width: 340px;
     height: 206px;
-    margin-top: 50px;
+    margin-top: 7px;
 }
 
 .main_footer_container .find_us {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 297px;
+    width: 350px;
     height: 350px;
-    margin-left: 96.39px;
+    margin-left: 200px;
     /* border: 1px solid red; */
   }
   
@@ -160,27 +160,22 @@
     flex-direction: row;
     width: 295px;
     height: 33px;
+    /* border: 1px solid red; */
   }
   
   .find_us .detail_first {
-    position: relative;
-    width: 15.01px;
-    height: 32.91px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 34px;
-    /* or 189% */
-    color: #c5c8c9;
+    width: 46px;
+    height: 48px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
   }
   
   .find_us .detail_second {
     position: relative;
-    width: 269.12px;
-    height: 32.91px;
-    margin-left: 11.79px;
-  
+    width: 244px;
+    height: 33px;
+    margin-left: 60px;
+    margin-top: -33px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
@@ -189,31 +184,33 @@
       /* or 212% */
   
     color: #ebc388;
+    /* border: 1px solid blue; */
   }
-  
+
   .find_us .detail_three {
-      position: relative;
-      width: 269.12px;
-      height: 32.91px;
-      margin-left: 28px;
-      margin-top: -33px;
-  
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 34px;
-      /* or 212% */
-  
-      color: #ebc388;
-  }
+    position: relative;
+    width: 269.12px;
+    height: 36px;
+    margin-left: 60px;
+    margin-top: -33px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    /* or 212% */
+
+    color: #ebc388;
+    /* border: 1px solid red; */
+}
   
   .find_us .detail_four {
       position: relative;
       width: 269.12px;
-      height: 32.91px;
-      margin-left: 28px;
-      margin-top: -33px;
+      height: 71px;
+      margin-left: 60px;
+      margin-top: -52px;
   
       font-family: "Poppins";
       font-style: normal;
@@ -223,7 +220,10 @@
       /* or 212% */
   
       color: #ebc388;
+      
   }
+  
+  
     
     
   

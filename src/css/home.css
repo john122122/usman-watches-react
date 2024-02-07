@@ -1,0 +1,42 @@
+/** home_page css*/
+.homepage .service_frame {
+    width: 100%;
+    background: rgba(63 99 63);
+    /* border: 1px solid red; */
+    height: 160px;
+   }
+
+  .service_frame .service_box {
+    width: 300px;
+    height: 86px;
+    margin-left: 20px;
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: row;
+   }
+  .homepage .service_box img {
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+   }
+  .homepage .service_box .service_content {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+   }
+  .homepage .service_content span {
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    color:  #ffe605;
+   }
+  .homepage .service_content p {
+    color:  #ffffff;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px
+   }

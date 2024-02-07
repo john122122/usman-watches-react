@@ -10,7 +10,7 @@ export function Footer() {
                     className="main_footer_container"
                     style={{ width: "1280px", height: "377px" }}
                 >
-                    <Stack flexDirection={"row"} style={{ height: "242px" }}>
+                    <Stack flexDirection={"row"} style={{ height: "250px" }}>
                         <Stack className="info" flexDirection={"column"}>
                             <Box>
                                 <img src={"/icons/Vector01.svg"} alt="" />
@@ -48,22 +48,30 @@ export function Footer() {
                         <Stack className="find_us">
                           <Box className="find">Contacts</Box>
                             <Box className="divider"></Box>
-                              <Stack className="detailes" sx={{ mt: "20px"}}>
-                                <Box className="detail_first">Location:.</Box>
-                                  <Box className="detail_second">Pepublic of Korea. Deagu Nam-gu</Box>
-                                    <Stack className="detailes" sx={{ mt: "20px"}}>
-                                      <Box className="detail_first">Telephone:.</Box>
-                                       <Box className="detail_second">010-7772-6227</Box>
-                                        <Stack className="detailes" sx={{ mt: "20px"}}>
-                                       <Box className="detail_first">Email:.</Box>
-                                     <Box className="detail_second">abbosusman2020@gmail.com</Box>
-                                 </Stack>  
-                              </Stack>
-                           </Stack>
-                        </Stack>
-                    </Stack>
-                    <Box className="liner"></Box>
-                      <Box className="copyrights">
+                              <Stack className="detailes" sx={{ mt: "29px"}}>
+                                <Box className="detail_first">
+                                 <img src={"/icons/address.svg"} alt="" />
+                                  </Box>
+                                   <Box className="detail_second">Pepublic of Korea. Deagu Nam-gu</Box>
+                                    <Stack className="detailes" sx={{ mt: "29px"}}>
+                                     <Box className="detail_first">
+                                      <img src={"/icons/tel.svg"} alt="" />
+                                       </Box>
+                                        <Box className="detail_three">010-7772-6227</Box>
+                                         <Stack className="detailes" sx={{ mt: "29px"}}>
+                                          <Box className="detail_first">
+                                           <img src={"/icons/email.svg"} alt="" /></Box>
+                                           <Box className="detail_four">
+                                            abbosusman2020@gmail.com
+                                            dark_fashion1991@gmail.com
+                                          </Box>
+                                        </Stack>  
+                                      </Stack>
+                                    </Stack>
+                                  </Stack>
+                                </Stack>
+                             <Box className="liner"></Box>
+                          <Box className="copyrights">
                        © 2023 dark fashion, All Rights Reserved
                     </Box>
                 </Stack>

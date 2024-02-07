@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export function NavbarShops(props: any) {
     return (
-    <div className="format_shop home_navbar">
+    <div className="format_others home_navbar">
         <Container>
                 <Stack
                     flexDirection={"row"}
@@ -30,7 +30,7 @@ export function NavbarShops(props: any) {
                             </NavLink>
                         </Box>
                         <Box className="hover_line" onClick={props.setPath}>
-                            <NavLink to="/shop" activeClassName="underline">
+                            <NavLink to="/shops" activeClassName="underline">
                                 Shop
                             </NavLink>
                         </Box>

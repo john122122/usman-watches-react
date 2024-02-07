@@ -21,6 +21,7 @@ import { NavbarShops } from './components/header/shops';
 import { NavbarOthers } from './components/header/others';
 import { SignupPage } from './screens/SignupPage';
 import { Footer } from './components/footer';
+import { HomePage } from './screens/HomePage';
 
 function App() {
   const [path, setPath] = useState();
@@ -28,7 +29,7 @@ function App() {
   
   return (
     <Router>
-      {main_path == "/" ? (
+          {main_path == "/" ? (
           <NavbarHome setPath={setPath} />
         ) : main_path.includes("/shop") ? (
           <NavbarShops setPath={setPath} />
@@ -48,7 +49,11 @@ function App() {
             <Route path="/orders"> 
               <OrdersPage />
             </Route>
-
+        
+            {/* <Route path="/my-page">              
+                <MyPage/>             
+            </Route> */}
+        
             <Route path="/member-page"> 
               <MemberPage />
             </Route>
@@ -76,9 +81,3 @@ function App() {
 }
 
 export default App;
-
-
-function HomePage() {
-  return <h2>HomePage</h2>;
-}
-
