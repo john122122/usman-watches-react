@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "@mui/material";
 import { Service } from "./service";
-import { TrendProducts } from "./trendProducts";
+import { OurTrendProducts } from "./ourtrendProducts";
 import { TopShops } from "./topShops";
 import { NewArrivals } from "./newArrivals";
 import { Advertisements } from "./advertisements";
@@ -15,7 +15,7 @@ export function HomePage() {
             <Service />
             <TopShops />
             <NewArrivals />
-            <TrendProducts />
+            <OurTrendProducts />
             <Advertisements />
             <Events />
             <Ourconsumers />

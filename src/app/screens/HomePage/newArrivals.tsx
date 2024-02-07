@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Stack } from "@mui/material";
+import { Box, Button, Container, Stack } from "@mui/material";
 
 import Card from '@mui/joy/Card';
 import CardCover from '@mui/joy/CardCover';
@@ -45,7 +45,7 @@ export function NewArrivals() {
                       />                       
                     <CardContent sx={{ justifyContent: 'flex-end' }}>                           
                       <Typography level="h2" textColor="#fff">                               
-                         Guy Laroche                            
+                         Prado                            
                            </Typography>                            
                              <Typography                               
                                startDecorator={<LocationOnRoundedIcon />}                               
@@ -132,7 +132,7 @@ export function NewArrivals() {
                       />                       
                     <CardContent sx={{ justifyContent: 'flex-end' }}>                           
                       <Typography level="h2" textColor="#fff">                               
-                         Guy Laroche                            
+                         Armani                            
                            </Typography>                            
                              <Typography                               
                                startDecorator={<LocationOnRoundedIcon />}                               
@@ -219,7 +219,7 @@ export function NewArrivals() {
                       />                       
                     <CardContent sx={{ justifyContent: 'flex-end' }}>                           
                       <Typography level="h2" textColor="#fff">                               
-                         Guy Laroche                            
+                         Polo                            
                            </Typography>                            
                              <Typography                               
                                startDecorator={<LocationOnRoundedIcon />}                               
@@ -306,7 +306,7 @@ export function NewArrivals() {
                       />                       
                     <CardContent sx={{ justifyContent: 'flex-end' }}>                           
                       <Typography level="h2" textColor="#fff">                               
-                         Guy Laroche                            
+                         Boss                            
                            </Typography>                            
                              <Typography                               
                                startDecorator={<LocationOnRoundedIcon />}                               
@@ -371,7 +371,17 @@ export function NewArrivals() {
                               </CardOverflow>
                           </Card>
                         </CssVarsProvider>    
-                    </Stack>    
+                  </Stack>
+                  
+                  <Stack
+                      flexDirection={"row"}
+                      justifyContent={"flex-end"}
+                      style={{ width: "100%"  }}
+                  >
+                      <Button style={{ background: "#1c4a2c", color: "#ffffff" }}>
+                          See All
+                      </Button>
+                  </Stack>
                 </Stack>
             </Container>
         </div>

@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "@mui/material";
 
-export function TrendProducts() {
+export function OurTrendProducts() {
     return (
         <div className="top_shops_frame">
             <Container>
-              TrendProducts
+              OurTrendProducts
             </Container>
        </div>
     )

@@ -1,4 +1,7 @@
 /** home_page css*/
+.homepage {
+  background: #f6ebda;
+}
 .homepage .service_frame {
     width: 100%;
     background: rgba(63 99 63);
