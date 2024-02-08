@@ -58,14 +58,150 @@
     font-weight: 100;
     font-size: 36px;
     line-height: 42px;
-
     color: #1c4a2c;
    }
 
    .homepage .new_arrival_frame {
     width: 100%;
-    height: 755px;
+    height: 687px;
     display: flex;
     background: #f6ebda;
    }
 
+   /* our trend products css */
+   .homepage .our_trend_frame {
+    margin-top: 72px;
+    width: 100%;
+    height: 462px;
+    display: flex;
+   }
+
+   .homepage .suit_box {
+    margin-right: 26px;
+    width: 273px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .homepage .suit_box .suit_img {
+    position: relative;
+    width: 273px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 10px 10px 5px 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .homepage .suit_img .sale_suits {
+    margin-top: 25px;
+    width: 77px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f88369;
+    box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 15px 15px 5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  
+  .homepage .view_btn {
+    width: 163px;
+    height: 50px;
+    margin-top: 290px;
+    margin-left: 55px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background: rgba(28, 23, 23, 0.59);
+    border: 2px solid #b48b50;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
+  .homepage .suit_img:hover .view_btn {
+    opacity: 1;
+  }
+  
+  .homepage .suit_box .dish_desc {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .homepage .suit_desc .suit_title_text {
+    margin-top: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 20px;
+    line-height: 30px;
+  
+    color: #000000;
+  }
+
+  .homepage .suit_desc .suit_title_text_2 {
+    margin-top: 9px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 100; 
+    font-size: 20px;
+    margin-left: 43px;
+    line-height: 30px;
+  
+    color: #5b4747;
+  }
+  
+  .homepage .suit_desc .suit_desc_text {
+    margin-top: 15px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    margin-left: 66px;
+    line-height: 36px;
+    color: #000000;
+  }
+
+  /* advetisement css*/
+.homepage .ads_shop_frame {
+  width: 70%;
+  height: 693px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px -62px 20px rgb(217 217 217 / 40%);
+  margin-top: 400px;
+  background-color: #956dd3;
+  
+  
+}
+
+.homepage .ads_video {
+  width: 70%;
+  margin-top: 170px;
+  background: #0c0e12;
+  display: flex;
+  box-shadow: 0px -8px 90px rgb(215 215 255);
+  transform: scale(1.5);
+  overflow: hidden;
+  margin-left: 230px;
+}

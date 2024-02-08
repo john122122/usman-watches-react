@@ -30,12 +30,12 @@ export function NewArrivals() {
                                   mr: "15px",
                                   cursor: "pointer",
                               }}>
-                         <CardCover> 
+                              <CardCover> 
                            <img                            
                              src="/shops/2023-11-23.jpg"                                                             
                                 loading="lazy"                               
                                   alt=""                               
-                                   />                           
+                                  />  
                                 </CardCover>                       
                                <CardCover                           
                               sx={{           
