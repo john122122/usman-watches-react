@@ -15,7 +15,7 @@ export function Advertisements() {
                 <source
                     data-src=""
                     type="video/mp4"
-                    src="/videos/pexels-pavel-danilyuk-7426425 (1440p).mp4"
+                    src="/videos/Untitled design (1).mp4"
                 />
             </video>
        </div>

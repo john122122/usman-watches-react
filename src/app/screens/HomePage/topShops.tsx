@@ -20,8 +20,8 @@ export function TopShops() {
             alignItems={"center"}
               sx={{ mt: "45px" }}
               >  
-                 <Box className="category_title"> Top Shops </Box>
-                   <Stack sx={{ mt: "43px" }} flexDirection={"row"} m={"16px"} ml={"45px"}>
+                <Box className="category_title"> Top Shops </Box>
+                    <Stack sx={{ mt: "43px" }} flexDirection={"row"} m={"16px"} ml={"45px"}>
                       <CssVarsProvider>
                           <Card
                               sx={{
@@ -283,6 +283,7 @@ export function TopShops() {
                                </Typography>
                               </CardOverflow>
                           </Card>
+
                           <Card
                               sx={{
                                   minHeight: '500px',
@@ -368,8 +369,8 @@ export function TopShops() {
                                  <Favorite sx={{ fontsize: 20, marginLeft: "5px"}} /> 
                                </Typography>
                               </CardOverflow>
-                           </Card>
-                        </CssVarsProvider>    
+                          </Card>
+                      </CssVarsProvider>    
                     </Stack>    
                 </Stack>
             </Container>

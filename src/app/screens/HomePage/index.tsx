@@ -5,7 +5,6 @@ import { OurTrendProducts } from "./ourtrendProducts";
 import { TopShops } from "./topShops";
 import { NewArrivals } from "./newArrivals";
 import { Advertisements } from "./advertisements";
-import { Ourconsumers } from "./ourconsumers";
 import { Events } from "./events";
 import '../../../css/home.css'
 
@@ -18,7 +17,6 @@ export function HomePage() {
             <OurTrendProducts />
             <Advertisements />
             <Events />
-            <Ourconsumers />
         </div>
     );
 }
