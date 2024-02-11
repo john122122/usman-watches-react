@@ -6,17 +6,21 @@ import { TopShops } from "./topShops";
 import { NewArrivals } from "./newArrivals";
 import { Advertisements } from "./advertisements";
 import { Events } from "./events";
+import { Recommendation } from "./recommendations";
+
+
 import '../../../css/home.css'
 
 export function HomePage() {
     return (
         <div className="homepage">
-            <Service />
             <TopShops />
+            <Service />
             <NewArrivals />
             <OurTrendProducts />
             <Advertisements />
             <Events />
+            <Recommendation />
         </div>
     );
 }

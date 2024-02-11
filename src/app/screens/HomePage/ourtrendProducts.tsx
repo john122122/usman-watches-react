@@ -24,7 +24,7 @@ export function OurTrendProducts() {
               <Box className="suit_box">
                     <Stack className="suit_img" sx={{ backgroundImage: `url('/suits/10005-995-2--tt.jpg')`}}>
                       <div className={"sale_suits"}>-25% SALE</div>
-                        <div className={"view_btn"}>
+                        <div className={"view_btn"} >
                           <div>Quick Shop</div>
                           </div>
                         </Stack>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export function NavbarShops(props: any) {
     return (
-    <div className="format_others home_navbar">
+      <div className="format_shop home_navbar">
         <Container>
                 <Stack
                     flexDirection={"row"}
@@ -88,7 +88,7 @@ export function NavbarShops(props: any) {
                                 aria-expanded={undefined}
                                 //onClick={handleClick}
                             >
-                                <Badge badgeContent={3} >
+                                <Badge badgeContent={15} >
                                     <img src="/icons/savat.svg" alt="" />
                                 </Badge>
                             </IconButton>
@@ -103,10 +103,8 @@ export function NavbarShops(props: any) {
                                 Log in
                             </NavLink>
                         </Box>
-
                     </Stack>
                 </Stack>
-
             </Container>
         </div>
     );

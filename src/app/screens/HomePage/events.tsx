@@ -57,7 +57,7 @@ export function Events() {
                     <img
                       src={"/icons/next 4 copy.svg"}
                       className={"swiper-button-next"}
-                      style={{ marginLeft: "20px", marginTop: "-22px"}}
+                      style={{ marginLeft: "2398px", marginTop: "-22px"}}
                     />
             </Box>
           <Swiper

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export function NavbarOthers(props: any) {
     return (
-    <div className="format_others home_navbar">
+      <div className="format_others home_navbar">
         <Container>
                 <Stack
                     flexDirection={"row"}
@@ -30,7 +30,7 @@ export function NavbarOthers(props: any) {
                             </NavLink>
                         </Box>
                         <Box className="hover_line" onClick={props.setPath}>
-                            <NavLink to="/shop" activeClassName="underline">
+                            <NavLink to="/shops" activeClassName="underline">
                                 Shop
                             </NavLink>
                         </Box>
@@ -88,7 +88,7 @@ export function NavbarOthers(props: any) {
                                 aria-expanded={undefined}
                                 //onClick={handleClick}
                             >
-                                <Badge badgeContent={3} >
+                                <Badge badgeContent={15} >
                                     <img src="/icons/savat.svg" alt="" />
                                 </Badge>
                             </IconButton>

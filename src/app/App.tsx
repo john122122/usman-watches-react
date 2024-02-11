@@ -14,7 +14,6 @@ import { ShopsPage } from './screens/ShopsPage';
 import { CommunityPage } from './screens/CommunityPage';
 import { OrdersPage } from './screens/OrdersPage';
 import { HelpPage } from './screens/HelpPage';
-import { MemberPage } from './screens/MemberPage';
 import { LoginPage } from './screens/LoginPage';
 import { NavbarHome } from './components/header';
 import { NavbarShops } from './components/header/shops';
@@ -22,6 +21,7 @@ import { NavbarOthers } from './components/header/others';
 import { SignupPage } from './screens/SignupPage';
 import { Footer } from './components/footer';
 import { HomePage } from './screens/HomePage';
+import { MyPage } from './screens/MyPage';
 
 function App() {
   const [path, setPath] = useState();
@@ -31,7 +31,7 @@ function App() {
     <Router>
           {main_path == "/" ? (
           <NavbarHome setPath={setPath} />
-        ) : main_path.includes("/shop") ? (
+        ) : main_path.includes("/shops") ? (
           <NavbarShops setPath={setPath} />
         ) : (
           <NavbarOthers setPath={setPath} />  
@@ -50,12 +50,8 @@ function App() {
               <OrdersPage />
             </Route>
         
-            {/* <Route path="/my-page">              
-                <MyPage/>             
-            </Route> */}
-        
-            <Route path="/member-page"> 
-              <MemberPage />
+            <Route path="/my-page">              
+                <MyPage />             
             </Route>
 
             <Route path="/help"> 
@@ -71,10 +67,10 @@ function App() {
             </Route>
 
             <Route path="/">              
-                <HomePage/>             
+                <HomePage />             
             </Route>  
-      </Switch> 
-
+          </Switch> 
+      
       <Footer/>
     </Router>
   );
