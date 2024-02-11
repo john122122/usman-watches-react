@@ -4,6 +4,7 @@ import { Route, Switch, useRouteMatch } from "react-router-dom";
 import { ChosenProduct } from "./chosenProduct";
 import { OneShop } from "./oneShop";
 import { AllShops } from "./allShops";
+import "../../../css/shops.css";
 
 export function ShopsPage() {
     let shops = useRouteMatch();

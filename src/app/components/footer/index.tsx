@@ -68,7 +68,7 @@ export function Footer() {
                                           <Box className="detail_first">
                                            <img src={"/icons/email.svg"} alt="" /></Box>
                                            <Box className="detail_four">
-                                            abbosusman2020@gmail.com
+                                            abbas_usman2020@gmail.com
                                             dark_fashion1991@gmail.com
                                           </Box>
                                         </Stack>  
@@ -78,7 +78,7 @@ export function Footer() {
                                 </Stack>
                              <Box className="liner"></Box>
                           <Box className="copyrights">
-                       © 2023 dark fashion, All Rights Reserved
+                       © 2023 Dark Fashion, All Rights Reserved
                     </Box>
                 </Stack>
             </Container>
