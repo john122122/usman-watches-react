@@ -56,17 +56,19 @@ export function Footer() {
                             <Box className="divider"></Box>
                               <Stack className="detailes" sx={{ mt: "29px"}}>
                                 <Box className="detail_first">
-                                 <img src={"/icons/address.svg"} alt="" />
+                                 <img src={"/footer/map.png"} style={{ width: "50px", height: "50px" }} alt="" />
                                   </Box>
                                    <Box className="detail_second">Pepublic of Korea. Deagu Nam-gu</Box>
                                     <Stack className="detailes" sx={{ mt: "29px"}}>
                                      <Box className="detail_first">
-                                      <img src={"/icons/tel.svg"} alt="" />
+                                      <img src={"/footer/phone-call-call-svgrepo-com.svg"} style={{ width: "50px", height: "50px" }} alt="" />
                                        </Box>
-                                        <Box className="detail_three">010-7772-6227</Box>
+                                    <Box className="detail_three">
+                                        010-7504-1424
+                                    </Box>
                                          <Stack className="detailes" sx={{ mt: "29px"}}>
                                           <Box className="detail_first">
-                                           <img src={"/icons/email.svg"} alt="" /></Box>
+                                           <img src={"/footer/email-part-2-svgrepo-com.svg"} style={{ marginTop: "10px"}} alt="" /></Box>
                                            <Box className="detail_four">
                                             abbas_usman2020@gmail.com
                                             dark_fashion1991@gmail.com
