@@ -838,15 +838,15 @@
     right: 15%;
 }
 
-/**  CHOSEN DISH PAGE */
+/**  CHOSEN PROGUCT PAGE */
 
 .shops_page .chosen_product_page {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 1290px;
     display: flex;
     flex-direction: column;
-    background: #0b0e11;
+    background: #f6ebda;
   }
   
   .chosen_product_page .product_container {
@@ -857,11 +857,10 @@
     padding-bottom: 60px;
   }
   
-  /* 1/2 Stack: Dish Slider */
   /* 1.1 Swiper 1: big pictures */
   .chosen_product_page .chosen_product_slider {
     width: 48%;
-    height: 581px;
+    height: 828px;
   }
   
   .chosen_product_page .product_swiper {
@@ -869,6 +868,7 @@
     --swiper-pagination-color: #fff;
     width: 100%;
     height: 1020px;
+
   }
   
   /* 1.1 Swiper 2: small pictures */
@@ -886,16 +886,16 @@
     height: 107px;
     padding: 1px;
     border-radius: 15px;
-    margin-right: 10px;
+    margin-right: 54px;
   }
   
   /* 2/2 Stack: Dish Info */
   .chosen_product_page .chosen_product_info_container {
     padding: 30px 40px;
     width: 49%;
-    height: 452px;
+    height: 826px;
     display: flex;
-    background: #ffffff;
+    background: #63ceaa;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -969,7 +969,7 @@
     font-family: "Poppins";
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 100;
     height: 112px;
     line-height: 22px;
     margin-bottom: 30px;
@@ -980,7 +980,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 390px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -992,7 +992,7 @@
     font-family: "Poppins";
     font-size: 25px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 100;
     /* height: 112px; */
     line-height: 22px;
   }
