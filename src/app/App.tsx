@@ -21,7 +21,7 @@ import { NavbarOthers } from './components/header/others';
 import { SignupPage } from './screens/SignupPage';
 import { Footer } from './components/footer';
 import { HomePage } from './screens/HomePage';
-import { MyPage } from './screens/MyPage';
+import { MemberPage } from './screens/MemberPage';
 
 function App() {
   const [path, setPath] = useState();
@@ -50,8 +50,8 @@ function App() {
               <OrdersPage />
             </Route>
         
-            <Route path="/my-page">              
-                <MyPage />             
+            <Route path="/member-page">              
+                <MemberPage />             
             </Route>
 
             <Route path="/help"> 

@@ -20,7 +20,7 @@ export function TopShops() {
             alignItems={"center"}
               sx={{ mt: "45px" }}
               >  
-                <Box className="category_title"> Top Shops </Box>
+                <Box className="category_title">Top Shops</Box>
                     <Stack sx={{ mt: "43px" }} flexDirection={"row"} m={"16px"} ml={"45px"}>
                       <CssVarsProvider>
                           <Card

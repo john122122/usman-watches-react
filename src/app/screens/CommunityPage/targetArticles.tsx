@@ -10,7 +10,7 @@ export function TargetArticles(props: any) {
     return (
         <Stack>
           {props.targetBoArticles?.map((articles: any, index: string) => {
-            const art_image_url = "/community/usman.jpg";
+            const art_image_url = "/community/GettyImages-998449832.jpg";
             return (
               <Link
                 className="all_article_box"
@@ -20,12 +20,17 @@ export function TargetArticles(props: any) {
                 <Box
                   className="all_article_img"
                   sx={{ backgroundImage: `url(${art_image_url})` }}
-                ></Box>
+                >
+                </Box>
                     <Box className="all_article_container">
                         <img src="auth/romka.png" alt="" />
-                  <Box alignItems={"center"} display={"flex"}>
+                  <Box
+                    alignItems={"center"}
+                    display={"flex"}
+                    margin-top={"-125px"}
+                  >
                     <img
-                      src="/icons/qiz.svg"
+                      src="/icons/icons8-person-100.png"
                       alt=""
                       width={"35px"}
                       style={{ borderRadius: "50%", backgroundSize: "cover" }}
@@ -44,7 +49,7 @@ export function TargetArticles(props: any) {
                   >
                     <span className="all_article_title">evaluation</span>
                     <p className="all_article_desc">
-                      Texas De Brazil zo'r restarant
+                      Usman Fabric has a wonderfull products
                     </p>
                   </Box>
                   <Box>
@@ -52,7 +57,7 @@ export function TargetArticles(props: any) {
                       className={"article_share_main"}
                       style={{
                         color: "#fff",
-                        marginLeft: "150px",
+                        marginLeft: "284px",
                         display: "flex",
                         alignItems: "center",
                       }}
@@ -75,4 +80,4 @@ export function TargetArticles(props: any) {
           })}
         </Stack>
       );
-    }
+}

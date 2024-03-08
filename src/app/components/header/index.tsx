@@ -38,7 +38,7 @@ export function NavbarHome(props: any) {
                         </NavLink>
                       </Box>
                       <Box className="hover_line" onClick={props.setPath}>
-                        <NavLink to="/my-page" activeClassName="underline">
+                        <NavLink to="/member-page" activeClassName="underline">
                             My Page
                         </NavLink>
                       </Box>
