@@ -21,9 +21,10 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { TuiEditor } from "../../components/tuiEditor/TuiEditor";
 import '../../../css/my_page.css';
+import TViewer from "../../components/tuiEditor/TViewer";
 export function VisitMyPage(props: any) {
     /** INITIALIZATIONS **/
-  const [value, setValue] = React.useState("6");
+  const [value, setValue] = React.useState("5");
 
   /** HANDLERS **/
   const handleChange = (event: any, newValue: string) => {
@@ -36,68 +37,70 @@ export function VisitMyPage(props: any) {
         <Stack className={"my_page_frame"}>
           <TabContext value={value}>
             <Stack className={"my_page_right"}>
-                <Box display={"flex"} flexDirection={"column"}>
-                    <TabPanel value={"1"}>
-                        <Box className={"menu_name"} marginLeft={"27px"}>My Articles</Box>
-                            <Box className={"menu_content"}>
-                                <MemberPosts/>
-                                    <Stack 
-                                       sx={{ my:"40px" }}
-                                       direction="row"
-                                       alignItems="center"
-                                       justifyContent="center"
-                                    >
-                                       <Box className={"bottom_box"}>
-                                           <Pagination
-                                                count={3}
-                                                page={1}
-                                                renderItem={(item) => (
-                                                    <PaginationItem
-                                                        components={{
-                                                          previous: ArrowBackIcon,
-                                                          next: ArrowForwardIcon,
-                                                        }}
-                                                        {...item}
-                                                        color={"secondary"}
-                                                    />
-                                               )}
-                                            />
-                                       </Box>
-                                    </Stack>
-                                </Box>
-                            </TabPanel>
-                            <TabPanel value={"2"}>
-                                <Box className={"menu_name"}>Followers</Box>
-                                <Box className={"menu_content"}>
-                                    <MemberFollowers action_enabled={true} />
-                                </Box>
-                            </TabPanel>
+              <Box display={"flex"} flexDirection={"column"}>
+                <TabPanel value={"1"}>
+                  <Box className={"menu_name"} marginLeft={"27px"}>My Articles</Box>
+                    <Box className={"menu_content"}>
+                      <MemberPosts/>
+                        <Stack 
+                          sx={{ my:"40px" }}
+                          direction="row"
+                          alignItems="center"
+                          justifyContent="center"
+                        >
+                        <Box className={"bottom_box"}>
+                          <Pagination
+                            count={3}
+                            page={1}
+                            renderItem={(item) => (
+                          <PaginationItem
+                            components={{
+                            previous: ArrowBackIcon,
+                            next: ArrowForwardIcon,
+                          }}
+                          {...item}
+                            color={"secondary"}
+                           />
+                          )}
+                        />
+                       </Box>
+                      </Stack>
+                     </Box>
+                    </TabPanel>
+                    <TabPanel value={"2"}>
+                      <Box className={"menu_name"}>Followers</Box>
+                      <Box className={"menu_content"}>
+                      <MemberFollowers actions_enabled={true} />
+                     </Box>
+                    </TabPanel>
 
-                            <TabPanel value={"3"}>
-                                <Box className={"menu_name"}>Following</Box>
-                                <Box className={"menu_content"}>
-                                    <MemberFollowing action_enabled={true} />
-                                </Box>
-                            </TabPanel>
+                    <TabPanel value={"3"}>
+                        <Box className={"menu_name"}>Following</Box>
+                        <Box className={"menu_content"}>
+                        <MemberFollowing actions_enabled={true} />
+                      </Box>
+                    </TabPanel>
 
-                            <TabPanel value={"4"}>
-                                <Box className={"menu_name"}>Article Writing</Box>
-                                <Box className={"write_content"}>
-                                    <TuiEditor/>
-                                </Box>
-                            </TabPanel>
+                    <TabPanel value={"4"}>
+                        <Box className={"menu_name"}>Article Writing</Box>
+                        <Box className={"write_content"}>
+                        <TuiEditor/>
+                      </Box>
+                    </TabPanel>
 
-                            <TabPanel value={"5"}>
-                                <Box className={"menu_name"}>Featured Article</Box>
-                                <Box className={"menu_content"}></Box>
-                            </TabPanel>
+                    <TabPanel value={"5"}>
+                        <Box className={"menu_name"}>Featured Article</Box>
+                        <Box className={"menu_content"}>
+                        <TViewer text={`<h3>Hello</h3>`} />
+                      </Box>
+                    </TabPanel>
 
-                            <TabPanel value={"6"}>
-                                <Box className={"menu_name"}>Articles</Box>
-                                <Box className={"menu_content"}>
-                                    <MySettings />
-                                </Box>
-                            </TabPanel>
+                    <TabPanel value={"6"}>
+                        <Box className={"menu_name"}>Articles</Box>
+                        <Box className={"menu_content"}>
+                        <MySettings />
+                      </Box>
+                    </TabPanel>
                         </Box>
                     </Stack>
 

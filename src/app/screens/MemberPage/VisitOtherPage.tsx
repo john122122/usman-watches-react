@@ -15,6 +15,7 @@ import { MemberFollowing } from "./memberFollowing";
 import '../../../css/my_page.css';
 import { TuiEditor } from "../../components/tuiEditor/TuiEditor";
 import { MySettings } from "./mySettings";
+import TViewer from "../../components/tuiEditor/TViewer";
 export function VisitOtherPage(props: any) {
     /** INITIALIZATIONS **/
   const [value, setValue] = useState("6");
@@ -40,20 +41,22 @@ export function VisitOtherPage(props: any) {
                             <TabPanel value={"2"}>
                                 <Box className={"menu_name"}>Followers</Box>
                                 <Box className={"menu_content"}>
-                                    <MemberFollowers action_enabled={false} />
+                                    <MemberFollowers actions_enabled={false} />
                                 </Box>
                             </TabPanel>
 
                             <TabPanel value={"3"}>
                                 <Box className={"menu_name"}>Following</Box>
                                 <Box className={"menu_content"}>
-                                    <MemberFollowing action_enabled={false} />
+                                    <MemberFollowing actions_enabled={false} />
                                 </Box>
                             </TabPanel>
 
                             <TabPanel value={"4"}>
                                 <Box className={"menu_name"}>Featured Article</Box>
-                                <Box className={"menu_content"}></Box>
+                                  <Box className={"menu_content"}>
+                                  <TViewer text={`<h3>Hello</h3>`} />   
+                                </Box>
                             </TabPanel>
                         </Box>
                     </Stack>

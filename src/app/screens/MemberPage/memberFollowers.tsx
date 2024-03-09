@@ -33,7 +33,7 @@ export function MemberFollowers(props: any) {
                             <span className={"username_text"}>@jon_polat</span>
                             <span className={"name_text"}>{follower.mb_nick}</span>
                            </div>
-                           {props.actions_enabled ??
+                           {props.actions_enabled &&
                              (follower?.following ? (
                                 <Button
                                    variant={"contained"}
