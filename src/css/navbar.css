@@ -1,6 +1,6 @@
 .format.home_navbar {
     width: 100%;
-    height: 773px;
+    height: auto;
     object-fit: contain;
     background: #ded7c5;
     display: flex;
