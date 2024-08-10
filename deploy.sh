@@ -13,4 +13,4 @@ pm2 start "yarn run start:prod" --name=USMAN-WATCHES-REACT
 # DEVELOPMENT
 # npm i yarn -g
 # yarn 
-# pm2 start "yarn run start" --name=PAPAYS-REACT
+# pm2 start "yarn run start" --name=USMAN-WATCHES-REACT
