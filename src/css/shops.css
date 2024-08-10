@@ -818,12 +818,13 @@
 
 .single_shop .product_category_box .product_category_main {
     display: flex;
-    flex-direction: row;
+    margin-top: 10px;
+    flex-direction: column;
     justify-content: end;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
     
 }
 

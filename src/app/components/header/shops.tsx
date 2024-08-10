@@ -94,7 +94,7 @@ export function NavbarShops(props: any) {
                             </IconButton>
                         </Box>
                         <Box className="hover_line" onClick={props.setPath}>
-                            <NavLink to="/sign-up" activeClassName="underline">
+                            <NavLink to="/signup" activeClassName="underline">
                                 Sign up
                             </NavLink>
                         </Box> 

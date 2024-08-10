@@ -4,12 +4,20 @@ import { NavLink } from "react-router-dom";
 
 export function NavbarHome(props: any) {
  return (
-  <div className="format home_navbar">
+   <div
+     className="format home_navbar"
+     data-aos="fade-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+   >
     <Container>
       <Stack
         flexDirection={"row"}
         className="navbar_config"
         justifyContent={"space-between"}
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
       >
       <Box>
         <img src="/icons/Group.png" />
@@ -21,32 +29,64 @@ export function NavbarHome(props: any) {
           alignItems={"center"}
           className="navbar_links_1"
         >
-        <Box className="hover_line" onClick={props.setPath}>
+           <Box
+             className="hover_line"
+             onClick={props.setPath}
+             data-aos="fade-up"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000"
+           >
           <NavLink to="/" activeClassName="underline">
               Home
           </NavLink>
         </Box>
-        <Box className="hover_line" onClick={props.setPath}>
+        <Box className="hover_line"
+             onClick={props.setPath}
+             data-aos="fade-up"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000"
+            >
           <NavLink to="/shops" activeClassName="underline">
               Shop
           </NavLink>
         </Box>
-        <Box className="hover_line" onClick={props.setPath}>
+           <Box 
+             className="hover_line"
+             onClick={props.setPath}
+             data-aos="fade-up"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000"
+        >
           <NavLink to="/community" activeClassName="underline">
               Community
           </NavLink>
         </Box>
-        <Box className="hover_line" onClick={props.setPath}>
+        <Box className="hover_line"
+             onClick={props.setPath}
+             data-aos="fade-up"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000"
+           >
           <NavLink to="/member-page" activeClassName="underline">
               My Page
           </NavLink>
         </Box>
-        <Box className="hover_line" onClick={props.setPath}>
+        <Box className="hover_line"
+             onClick={props.setPath}
+             data-aos="fade-up"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000"
+           >
           <NavLink to="/orders" activeClassName="underline">
               Orders
           </NavLink>
         </Box>
-        <Box className="hover_line" onClick={props.setPath}>
+        <Box className="hover_line"
+             onClick={props.setPath}
+             data-aos="fade-up"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000"
+          >
           <NavLink to="/help" activeClassName="underline">
             Help
           </NavLink>
@@ -67,7 +107,7 @@ export function NavbarHome(props: any) {
               aria-expanded={undefined}
               //onClick={handleClick}
             >                
-            <div className="search_icon_box">
+            <div className="search_icon_box" data-aos="zoom-out-up">
               <img
                   className="img_search"
                   src="/icons/Layer_1.svg"
@@ -75,7 +115,7 @@ export function NavbarHome(props: any) {
             </div>
           </IconButton>
         </Box>
-          <Box className="hover_line">
+          <Box className="hover_line" data-aos="zoom-out-up">
             <IconButton
               aria-label="cart"
               id="basic-button"
@@ -89,19 +129,24 @@ export function NavbarHome(props: any) {
               </Badge>
             </IconButton>
           </Box>
-            <Box className="hover_line" onClick={props.setPath}>
-              <NavLink to="/sign-up" activeClassName="underline">
+            <Box className="hover_line" onClick={props.setPath} data-aos="zoom-out-up">
+              <NavLink to="/signup" activeClassName="underline">
                   Sign up
               </NavLink>
             </Box> 
-              <Box className="hover_line" onClick={props.setPath}>
+              <Box className="hover_line" onClick={props.setPath} data-aos="zoom-out-up">
                 <NavLink to="/login" activeClassName="underline">
                   Log in
                 </NavLink>
               </Box>
         </Stack>
       </Stack>
-        <Stack className="head_information">
+       <Stack
+         className="head_information"
+         data-aos="fade-up"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000"
+       >
           <Stack justifyContent={"column"} style={{ marginTop: "-162px"}}>
             <Box>
               <text className="usman_text">Welcome to Usman Fabric</text>

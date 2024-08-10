@@ -6,7 +6,7 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Badge from "@mui/material/Badge";
-import { Favorite, FavoriteBorder } from "@mui/icons-material";
+import { Favorite, FavoriteBorder, WidthFull } from "@mui/icons-material";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import StarIcon from "@mui/icons-material/Star";
@@ -109,11 +109,86 @@ export function OneShop () {
                 </Stack>
 
                 <Stack
-                style={{ width: "100%", display: "flex", minHeight: "600px"}}
-                flexDirection={"row"}
+                   style={{ display: "flex", minHeight: "600px"}}
+                   flexDirection={"row"}
                 >
-                    <Stack className={"product_category_box"}>
+                        <Stack
+                            className={"product_category_box"}
+                            style={{ width: "25%"}}
+                        >
                         <div className={"product_category_main"}>
+                            <Button variant={"contained"} color="secondary">
+                                Others
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shirts
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shoes
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Accessories
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Trousers
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Outerwear
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Others
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shirts
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shoes
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Accessories
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Trousers
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Outerwear
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Others
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shirts
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shoes
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Accessories
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Trousers
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Outerwear
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Others
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shirts
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Shoes
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Accessories
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Trousers
+                            </Button>
+                            <Button variant={"contained"} color="secondary">
+                                Outerwear
+                            </Button>
                             <Button variant={"contained"} color="secondary">
                                 Others
                             </Button>
@@ -135,7 +210,7 @@ export function OneShop () {
                         </div>
                     </Stack>
 
-                    <Stack className={"product_wrapper"}>
+                    <Stack className={"product_wrapper"} style={{ width: "75%"}} >
                         {product_list.map((ele, index) => {
                           const sale_volume = "15%";
 
@@ -280,7 +355,6 @@ export function OneShop () {
                   })}
                </Box>
             </Stack>
-
             <Stack 
             sx={{ mt: "60px" }}
             style={{

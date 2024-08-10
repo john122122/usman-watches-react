@@ -4,7 +4,7 @@ import Marginer from "../../components/marginer";
 
 export function Service() {
     return (
-      <div className="service_frame">
+      <div className="service_frame" data-aos="zoom-out-up">
         <Container>
           <Stack
             flexDirection={"row"}
@@ -14,7 +14,7 @@ export function Service() {
             style={{ width: "1220px", height: "175px" }}
           >
             
-            <div className="service_box">
+            <div className="service_box" data-aos="zoom-out-up">
              <img src="icons/fast-delivery 1.svg" alt=""/>
               <div className="service_content">
                <span>Free Shipping</span>
@@ -22,7 +22,7 @@ export function Service() {
              </div>
             </div>
             <Marginer direction="vertical" height="64" width="2" bg="#e3c08d"/>
-            <div className="service_box">
+            <div className="service_box" data-aos="zoom-out-up">
              <img src="icons/shield 1.svg" alt=""/>
               <div className="service_content">
                <span>Money Guarantee</span>
@@ -30,7 +30,7 @@ export function Service() {
              </div>
             </div>
             <Marginer direction="vertical" height="64" width="2" bg="#e3c08d"/>
-            <div className="service_box">
+            <div className="service_box" data-aos="zoom-out-up">
               <img src="icons/headphones 1.svg" alt=""/>
               <div className="service_content">
                <span>Online Support</span>
@@ -38,7 +38,7 @@ export function Service() {
              </div>
             </div>
             <Marginer direction="vertical" height="64" width="2" bg="#e3c08d"/>
-            <div className="service_box">
+            <div className="service_box" data-aos="zoom-out-up">
              <img src="icons/credit-card 1.svg" alt=""/>
               <div className="service_content">
                <span>Flexible Payment</span>

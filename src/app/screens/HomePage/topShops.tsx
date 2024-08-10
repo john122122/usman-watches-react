@@ -13,7 +13,12 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 
 export function TopShops() {
   return (
-    <div className="top_shops_frame">
+    <div
+      className="top_shops_frame"
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <Container>
         <Stack 
           flexDirection={"column"}

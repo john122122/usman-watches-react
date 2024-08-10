@@ -62,7 +62,7 @@ function App() {
               <LoginPage />
             </Route>
             
-            <Route path="/sign-up"> 
+            <Route path="/signup"> 
               <SignupPage />
             </Route>
 
